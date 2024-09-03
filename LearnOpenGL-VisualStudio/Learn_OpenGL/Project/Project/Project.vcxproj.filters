@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Source">
+      <UniqueIdentifier>{9c91ed9d-c55c-45f5-afdd-ee86ccd55c89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Shader">
+      <UniqueIdentifier>{cf2dffb3-201f-4568-bb8c-97cb492a70f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\glad">
+      <UniqueIdentifier>{3f20d600-24a1-4632-af02-05f0e7e270d0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\source.cpp">
+      <Filter>소스 파일\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\glad.c">
+      <Filter>소스 파일\glad</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OpenGL\includes\SHADER\shader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\Shader.fs">
+      <Filter>소스 파일\Shader</Filter>
+    </None>
+    <None Include="shader\Shader.vs">
+      <Filter>소스 파일\Shader</Filter>
+    </None>
+  </ItemGroup>
+</Project>

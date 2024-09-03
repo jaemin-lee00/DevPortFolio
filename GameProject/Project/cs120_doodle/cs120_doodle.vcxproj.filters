@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="KeyControl.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>Source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="vector2D.cpp">
+      <Filter>Source\math</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="Ladder.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source\object</Filter>
+    </ClCompile>
+    <ClCompile Include="doodle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MapReader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="std_lib_facilities.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>Header\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Header\Variable</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>Header\math</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2D.hpp">
+      <Filter>Header\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Ladder.h">
+      <Filter>Header\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header\object</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header\object</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header\object</Filter>
+    </ClInclude>
+    <ClInclude Include="MapReader.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="logo.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{a071c1ed-01ac-47c7-8b85-f3cee648f4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Variable">
+      <UniqueIdentifier>{6a255b62-9186-4453-b8f1-ecb9f516f6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{64d01bf4-324b-47a1-9311-5aaba7eeb848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\math">
+      <UniqueIdentifier>{34ba800f-8ed2-4333-aea0-96bc63906eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\object">
+      <UniqueIdentifier>{60632d29-932d-4f07-abe1-3a4add9e3309}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\math">
+      <UniqueIdentifier>{8bf729e7-8529-48a3-87f7-83daacb72ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\object">
+      <UniqueIdentifier>{3b7ef104-6f52-4f34-b78f-18195fa30899}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

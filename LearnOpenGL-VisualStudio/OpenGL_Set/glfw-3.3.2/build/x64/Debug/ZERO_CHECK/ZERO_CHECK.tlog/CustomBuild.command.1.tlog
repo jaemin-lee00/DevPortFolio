@@ -1,0 +1,10 @@
+^C:\DIGIPEN\STUDY\GLFW-3.3.2\BUILD\CMAKEFILES\9BEA5959C2EC33891F83B59353C70ED2\GENERATE.STAMP.RULE
+setlocal
+C:\DIGIPEN\Study\CMake\bin\cmake.exe -SC:/DIGIPEN/Study/glfw-3.3.2/glfw-3.3.2 -BC:/DIGIPEN/Study/glfw-3.3.2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/DIGIPEN/Study/glfw-3.3.2/build/GLFW.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

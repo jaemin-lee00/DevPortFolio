@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\DIGIPEN\Study\glfw-3.3.2\build\CMakeFiles\9bea5959c2ec33891f83b59353c70ed2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9D07479B-BC3D-3F4A-BE88-0EEFADABBBEC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

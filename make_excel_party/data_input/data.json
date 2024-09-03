@@ -1,0 +1,22 @@
+{
+    "adven_name": [
+        "I홍길동I",
+        "지약한친구들",
+        "븜끼두창",
+        "고깃배"
+    ],
+    "dungeon": {
+        "high-dungeon": {
+            "deal_cut": 5000,
+            "buff_cut": 180
+        },
+        "dark_island": {
+            "deal_cut": 0.9,
+            "buff_cut": 0.7
+        },
+        "asrahan": {
+            "deal_cut": 0.7,
+            "buff_cut": 0.6
+        }
+    }
+}
