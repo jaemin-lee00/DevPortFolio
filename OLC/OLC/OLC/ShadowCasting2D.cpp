@@ -366,7 +366,7 @@ public :
 			
 			// Clear offscreen buffer for sprite
 			SetDrawTarget(buffLightTex);
-			Clear(olc::BLACK);
+			Clear(olc::WHITE);
 
 			// Draw "Radial Liight" sprite to offscreen buffer, centered around
 			// source location (the mouse coordiantes, buffer is 512x512)

@@ -15,4 +15,9 @@
       <Filter>Source file</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="olcPixelGameEngine.h">
+      <Filter>Header file</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
