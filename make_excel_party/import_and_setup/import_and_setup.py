@@ -4,12 +4,12 @@ import pandas as pd
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 import json
+import time
 
 
 # Selenium 설정
@@ -18,24 +18,17 @@ chrome_options.add_argument("--headless")
 chrome_options.add_argument("--no-sandbox")
 chrome_options.add_argument("--disable-dev-shm-usage")
 
-chrome_driver_path = ChromeDriverManager().install()
-print(f"ChromeDriver installed at: {chrome_driver_path}")
-
-
-
 try:
-    # ChromeDriver 설치 경로 확인
-    chrome_driver_path = ChromeDriverManager().install()
-    print(f"ChromeDriver installed at: {chrome_driver_path}")
-
-    # 경로가 THIRD_PARTY_NOTICES.chromedriver로 끝나는 경우 수정
-    if not chrome_driver_path.endswith("chromedriver.exe"):
-        chrome_driver_dir = os.path.dirname(chrome_driver_path)
-        chrome_driver_path = os.path.join(chrome_driver_dir, "chromedriver.exe")
+    # ChromeDriver 경로 설정 (직접 다운로드한 경로로 변경)
+    chrome_driver_path = "C:/Users/Admin/Documents/GitHub/DevPortFolio/make_excel_party/chromedriver.exe"
+    print(f"ChromeDriver path set to: {chrome_driver_path}")
 
     # ChromeDriver가 존재하는지 확인
     if not os.path.exists(chrome_driver_path):
         raise FileNotFoundError(f"ChromeDriver not found at path: {chrome_driver_path}")
+
+    # 잠시 대기 (Windows Defender 등의 간섭을 피하기 위해)
+    time.sleep(5)
 
     # 서비스 설정 및 WebDriver 시작
     service = Service(chrome_driver_path)
